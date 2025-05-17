@@ -1,0 +1,39 @@
+{
+  "name": "Story App",
+  "short_name": "StoryApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6200ee",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita",
+      "url": "/#/add-story",
+      "icons": [{ "src": "images/logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "type": "image/png",
+      "sizes": "1280x720"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "type": "image/png",
+      "sizes": "360x640"
+    }
+  ]
+}
